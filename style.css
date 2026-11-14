@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #F7F3ed;
+    color:  #33251f;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #493328;
+    color: white;
+    padding: 22px 8%;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #f4d7b5;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.hero {
+    text-align: center;
+    padding: 55px 20px;
+    background-color: linear-gradient(135deg, #d9a06f, #f3d7b5);
+}
+
+.hero h2 {
+    font-size: 32px;
+    margin: 0 0 10px;
+}
+
+.hero p {
+    max-width: 600px;
+    margin: 0 auto 20px;
+}
+
+.hero a {
+    display: inline-block;
+    background-color: #493328;
+    color: #fff;
+    padding: 10px 22px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.hero a:hover {
+    background-color: white;
+    color: #493328;
+    border: 1px solid #493328;
+}
+
+main {
+    width: min(1000px, 90%);
+    margin: 35px auto;
+}
+
+.about {
+    background-color: white;
+    padding: 22px;
+    border-radius: 12px;
+    box-shadow: rgba(55, 35, 22, 0.12) 0px 4px 14px;
+    margin-bottom: 35px;
+    overflow: auto;
+}
+
+.coffee-icon {
+    float: left;
+    width: 115px;
+    height: 115px;
+    margin: 0 20px 10px 0;
+    border-radius: 12px;
+    background-color: ead2bd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 62px;
+}
+
+.about h2, .menu-title {
+    color: #70452f;
+}
+
+.menu-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.menu-card {
+    background-color: #fff;
+    padding: 22px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: rgba(55, 35, 22, 0.55) 0px 4px 14px;
+    transition: 
+    box-shadow .2s ;
+}
+
+.menu-card:hover {
+    box-shadow: rgba(55, 35, 22, 0.85) 0px 4px 14px;
+}
+
+.emoji i {
+    font-size: 40px;
+}
+
+.menu-card h3 {
+    color: 70452f;
+    margin: 8px 0;
+}
+
+.price {
+    color: #a6532d;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+footer {
+    background-color: #493328;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    margin-top: 40px;
+   
+}
+
+/* @media {
+    bu kısım sizin ödeviniz. responsive tasarım ile ilgili araştırma yapıp bu kısmı düzenleyiniz.
+} */
+
+
+
+
